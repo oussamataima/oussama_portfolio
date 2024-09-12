@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Audiophile e-commerce website",
+    des: "Audiophile is an e-commerce platform that offers a wide range of high-quality headphones, earphones, speakers.",
+    img: "/ad.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stripe.svg"],
+    link: "https://audiophile-ecommerce-app-1gm3.vercel.app/",
   },
   {
     id: 2,
@@ -84,15 +84,15 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://zoom-clone-yy5n.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Memory game",
+    des: "A memory game built with Vue js and Tailwind CSS.",
+    img: "/memory.png",
+    iconLists: ["/vue.svg", "/tail.svg", "/ts.svg"],
+    link: "https://memory-game-nu-roan.vercel.app/",
   },
   {
     id: 4,
@@ -100,42 +100,48 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://iphone-main-sigma.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Oussama's dedication to delivering high-quality results is unparalleled. His ability to understand our vision and bring it to life was impressive. We couldn't be happier with the final product.",
+    name: "Emily Chen",
+    title: "Founder of Bloom Studio",
+    image: "/profile.svg"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Oussama was a seamless experience. His communication skills are top-notch, and he's always willing to go the extra mile to ensure the project is a success.",
+    name: "David Lee",
+    title: "Co-Founder of Codeflow",
+    image: "/empty-user.jpg"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Oussama is a true professional. His expertise in web development is unmatched, and his passion for his work is contagious. We're grateful to have him as a partner.",
+    name: "Sarah Taylor",
+    title: "CEO of Fresh Start",
+    image: "/empty-user.jpg"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Oussama's attention to detail is remarkable. He's always looking for ways to improve the user experience and ensure the project is a success. We're lucky to have him on our team.",
+    name: "John Doe",
+    title: "CTO of Codeflow",
+    image: "/empty-user.jpg"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Oussama is a master of his craft. His ability to balance form and function is unparalleled, and his dedication to delivering high-quality results is inspiring.",
+    name: "Jane Smith",
+    title: "UX Designer at Codeflow",
+    image: "/empty-user.jpg"
   },
 ];
+
 
 export const companies = [
   {
@@ -143,6 +149,7 @@ export const companies = [
     name: "cloudinary",
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
+    
   },
   {
     id: 2,
@@ -180,18 +187,19 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "Freelance Full Stack Developer",
+    desc: "Developed and maintained multiple web applications using modern technologies like Next.js, React, and Node.js.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Developer",
+    desc: "Built and maintained multiple web applications for clients using modern web technologies.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
+
   {
     id: 4,
     title: "Lead Frontend Developer",
@@ -201,17 +209,20 @@ export const workExperience = [
   },
 ];
 
+
+
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/oussamataima/",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
-  },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  // },
+  // {
+  //   id: 3,
+  //   img: "/link.svg",
+  // },
 ];
